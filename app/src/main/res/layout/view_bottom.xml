@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_item"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Back_To_Previous_Page"
+        android:textColor="@color/black_00001f"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_item"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Back_To_Home"
+        android:textColor="@color/black_00001f"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        ></Button>
+</RelativeLayout>

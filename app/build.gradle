@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.sharingcube.app"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.000.00"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "SharingCube" + defaultConfig.versionName + ".apk"
+/*
+            output.outputFile = new File(
+                    output.outputFile.parent,
+                    output.outputFile.name.replace("app-release.apk", "A920-TSB-EDC" + defaultConfig.versionName + ".apk"))
+*/
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    //ButterKnife
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+    //MaterialDialog
+    implementation 'com.afollestad.material-dialogs:core:0.9.2.3'
+    //GSON
+    implementation 'com.google.code.gson:gson:2.8.6'
+    //SFTP
+    implementation 'com.jcraft:jsch:0.1.51'
+
+}

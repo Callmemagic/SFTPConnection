@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/top_title_view"
+        android:id="@+id/view_top"/>
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Func_list"
+        android:layout_below="@id/view_top"
+        android:textColor="@color/sharingcube_blue"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <GridView
+        android:id="@+id/view_func_matrix"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="3"
+        android:clipChildren="true"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@android:color/transparent"
+        android:stretchMode="columnWidth"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_below="@id/tv_home" />
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_to_home"/>
+</RelativeLayout>

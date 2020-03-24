@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SharingCube</string>
+
+    <string name="nav_title">多元支付服務</string>
+    <string name="Home">首頁</string>
+    <string name="Func_list">功能選單</string>
+    <string name="Back_To_Home">回首頁</string>
+    <string name="Back_To_Previous_Page">回上一頁</string>
+    <string name="Next">下一步</string>
+    <string name="Input_amt_plz">請輸入交易金額</string>
+    <string name="Input_period_plz">請輸入分期期數</string>
+    <string name="Input_ref_no_plz">請輸入調閱編號</string>
+
+    <!-- 共用 -->
+    <string name="confirm">確認</string>
+    <string name="cancel">取消</string>
+    <string name="error">錯誤</string>
+    <string name="hint">提示</string>
+    <string name="error_network_unavailable">網路錯誤</string>
+    <string name="error_no_internet">未偵測到網路,請先連上Internet</string>
+
+    <!-- 銷售 -->
+    <string name="sale_key_money">銷售金額</string>
+    <string name="sale_empty_amt_alert">請完整輸入資料</string>
+    <string name="credit_card">信用卡</string>
+    <string name="cup">銀聯卡</string>
+    <string name="smartpay">SmartPay</string>
+    <string name="scp">掃碼支付</string>
+
+    <string name="pay_success">付款完成</string>
+    <string name="pay_error">付款失敗</string>
+    <string name="tx_send_success">電文傳送成功</string>
+    <string name="tx_send_error">電文傳送失敗</string>
+    <string name="tx_data_sent">資料傳送中...</string>
+    <string name="tx_cancel">交易已取消</string>
+
+    <!-- 結帳 -->
+    <string name="go_to_edc_settle">即將前往EDC進行結帳，是否繼續</string>
+    <string name="go_to_edc_reprint">即將前往EDC進行重印簽單，是否繼續</string>
+
+    <!-- 檔案/SFTP -->
+    <string name="fail_to_connect_to_sftp" translatable="false">SFTP連線失敗，請確認網路是否正常</string>
+
+</resources>

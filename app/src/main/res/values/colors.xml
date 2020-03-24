@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_3a7bd5">#3a7bd5</color>
+    <color name="blue_0288d1">#0288d1</color>
+    <color name="blue_0288d1_40">#660288d1</color>
+    <color name="blue_00d2ff">#00d2ff</color>
+    <color name="blue_7EC1E6">#7EC1E6</color>
+    <color name="blue_34495e">#34495e</color>
+    <color name="blue_b3e5fc">#b3e5fc</color>
+    <color name="blue_e1f5fe">#e1f5fe</color>
+    <color name="blue_0090d9">#0090d9</color>
+    <color name="blue_358ed7">#358ed7</color>
+    <color name="gray_dde1e4">#dde1e4</color>
+
+    <color name="black_de000000">#de000000</color>
+    <color name="black_00001f">#00001f</color>
+    <color name="black_80000000">#80000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#d0011b</color>
+    <color name="orange">#ff6400</color>
+    <color name="transparent">#00ffffff</color>
+
+    <!-- 雷門定義 -->
+    <color name="sharingcube_gray">#dddfe2</color>
+    <color name="sharingcube_blue">#00aed1</color>
+    <color name="sharingcube_font_black">#343434</color>
+</resources>
